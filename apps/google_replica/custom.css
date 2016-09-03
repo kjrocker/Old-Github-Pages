@@ -1,4 +1,12 @@
-body { padding-top: 10%; }
+
+
+body {
+  padding-top: 50px;
+}
+
+.navbar {
+  height: 50px;
+}
 
 .centered {
   float: none;
