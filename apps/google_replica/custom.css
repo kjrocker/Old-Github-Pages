@@ -1,0 +1,16 @@
+body { padding-top: 10%; }
+
+.centered {
+  float: none;
+  margin: 0 auto;
+}
+
+.input-group {
+  margin: auto;
+  width: 80%;
+}
+
+/*.input-group-btn {
+  margin: auto;
+  float: none;
+}*/
