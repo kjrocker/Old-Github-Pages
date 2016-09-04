@@ -44,12 +44,34 @@ body {
     padding-top: 10px;
 }
 
-footer p {
-    float: left;
-    padding: 2%;
+.features img {
+  height: 300px;
+  width: 300px;
+  margin: auto;
 }
 
-footer a, footer p {
+footer {
+    background-color: #323232;
+	  position: absolute;
+	  width: 100%;
+	  height: auto;
+}
+
+footer ul li{
+	  display: inline-block;
+	  list-style: none;
+	  padding: 2%;
+	  float: right;
+}
+
+footer p{
+	  float: left;
+	  padding: 2%;
+    color:#fff;
+    vertical-align: middle;
+}
+
+footer a{
     color:#fff;
     vertical-align: middle;
 }
