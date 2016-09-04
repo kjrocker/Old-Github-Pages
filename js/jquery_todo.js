@@ -2,7 +2,7 @@ $( document ).ready(function() { // Only loads when the DOM is ready
 
   function appendItem(i){
     var liString = "<li>" + i + "</li>"
-    $('ul').append(liString);  // Appends the literal HTML `liString` to `ul`
+    $('.jquery-todo ul').append(liString);  // Appends the literal HTML `liString` to `ul`
   }
 
   // JQuery seems to lack a convenient strikethrough method,
@@ -12,12 +12,12 @@ $( document ).ready(function() { // Only loads when the DOM is ready
     setTimeout(function(){ i.remove(); }, 1000);
   }
 
-  $('#myButton').on("click", function(e){ // Set EventListener on myButton
-    var newI = $("#myField").val();   // Get value of input box `#myField`
+  $('#jqueryButton').on("click", function(e){ // Set EventListener on myButton
+    var newI = $("#jqueryField").val();   // Get value of input box `#myField`
     appendItem(newI);
   });
 
-  $('ul').on('click', function(e){ // Set EventListener on the whole list
+  $('.jquery-todo ul').on('click', function(e){ // Set EventListener on the whole list
     if(e.target.tagName === "LI"){
       removeItem(e.target);
     }

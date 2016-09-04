@@ -3,7 +3,7 @@
   function appendItem(i){
     var newLI = d.createElement('li');
     newLI.innerHTML = i;
-    var list = d.querySelector('ul');
+    var list = d.querySelector('.vanilla-todo ul');
     list.appendChild(newLI);
     return newLI
   }
@@ -18,7 +18,7 @@
     appendItem(newI);
   });
 
-  d.querySelector('ul').addEventListener('click', function(e){
+  d.querySelector('.vanilla-todo ul').addEventListener('click', function(e){
     if(e.target.tagName === "LI"){
       removeItem(e.target);
     }
