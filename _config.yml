@@ -4,8 +4,7 @@ email: kevin.j.rocker@gmail.com
 description: ""
 baseurl: ""
 url: "http://www.kevinrocker.co"
-twitter_username: jekyllrb
-github_username:  jekyll
+github_username:  krocker34
 
 # Build settings
 markdown: kramdown
