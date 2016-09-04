@@ -11,6 +11,7 @@ body {
 .centered {
   float: none;
   margin: 75px auto;
+  width: 660px;
 }
 
 .input-group {

@@ -13,8 +13,8 @@
     setTimeout(function(){ i.remove(); }, 1000);
   }
 
-  d.querySelector('#myButton').addEventListener("click", function(e){
-    var newI = d.querySelector("#myField").value;
+  d.querySelector('#vanillaButton').addEventListener("click", function(e){
+    var newI = d.querySelector("#vanillaField").value;
     appendItem(newI);
   });
 
